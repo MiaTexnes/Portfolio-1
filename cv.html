@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+        <script defer src="javascript/script.js"></script>
+        <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    </head>
+    <body class="bg-gray-900 text-white">
+        <nav class="bg-green-950 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="index.html"
+                    ><img class="h-20 w-20" src="images/5.png" alt=""
+                /></a>
+                <div class="hidden md:flex space-x-4">
+                    <a href="portfolio.html" class="text-white">Portfolio</a>
+                    <a href="about.html" class="text-white">About</a>
+                    <a href="contact.html" class="text-white">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button
+                        id="menu-button"
+                        class="text-white focus:outline-none"
+                    >
+                        <svg
+                            class="w-6 h-6"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 30 30"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7"
+                            ></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden">
+                <a href="portfolio.html" class="block text-white px-2 py-1"
+                    >Home</a
+                >
+                <a href="about.html" class="block text-white px-2 py-1"
+                    >About</a
+                >
+                <a href="contact.html" class="block text-white px-2 py-1"
+                    >Contact</a
+                >
+            </div>
+        </nav>
+    <main class="bg-gray-800 p-8 rounded-lg shadow-lg">
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-pink-400">About Me</h2>
+            <p class="text-lg">
+                I am highly motivated and ambitious, with a strong desire for continuous learning and personal and professional development. I am very committed to acquiring new skills and knowledge, always striving to perform above expectations.
+            </p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-pink-400">Work Experience</h2>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Technician for Cash Handling Systems (CMS)</h3>
+                <p class="text-lg">Loomis Norge AS | 2014 - Present</p>
+                <ul class="list-disc list-inside mt-2">
+                    <li>Planning and maintenance</li>
+                    <li>Hardware and software repairs and installations</li>
+                    <li>Traveling around Norway for machine assistance and training</li>
+                    <li>Inventory management</li>
+                    <li>Local support for security installations</li>
+                </ul>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Cash Counter</h3>
+                <p class="text-lg">Loomis Norge AS | Jun 2011 - Present</p>
+                <ul class="list-disc list-inside mt-2">
+                    <li>Registration</li>
+                    <li>Quality control</li>
+                    <li>Counting on various machines</li>
+                    <li>Precise work</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold">Optician Assistant/Store Employee</h3>
+                <p class="text-lg">Synsam Norge | 2009 - 2011</p>
+                <ul class="list-disc list-inside mt-2">
+                    <li>Sales</li>
+                    <li>Customer handling</li>
+                    <li>Phone contact with customers and suppliers</li>
+                    <li>Inventory management</li>
+                    <li>Deputy manager in the store manager's absence</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-pink-400">Education</h2>
+            <div class="mb-2">
+                <h3 class="text-xl font-semibold">Food Science</h3>
+                <p class="text-lg">Sørumsand videregående skole | 2007 - 2008</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold">Restaurant and Food Service</h3>
+                <p class="text-lg">Sørumsand videregående skole | 2006 - 2007</p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold mb-4 text-pink-400">Skills</h2>
+            <ul class="list-disc list-inside grid grid-cols-2 gap-2">
+                <li>Quick learner</li>
+                <li>Good general computer knowledge</li>
+                <li>Eye for details</li>
+                <li>Good English skills</li>
+                <li>Logical and creative thinking</li>
+                <li>Good communication skills</li>
+            </ul>
+        </section>
+    </main>
+ <footer class="text-center py-4 bg-gray-800">
+            <p>&copy; 2024 Mia P Texnes. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a
+                    href="https://www.linkedin.com/in/mia-texnes-847b28bb/?originalSubdomain=no"
+                    target="_blank"
+                    class="text-pink-400"
+                >
+                    <span
+                        class="iconify"
+                        data-icon="mdi:linkedin"
+                        data-inline="false"
+                        data-width="30"
+                        data-height="30"
+                    ></span>
+                </a>
+                <a
+                    href="https://www.facebook.com/dataengelen"
+                    target="_blank"
+                    class="text-pink-400"
+                >
+                    <span
+                        class="iconify"
+                        data-icon="mdi:facebook"
+                        data-inline="false"
+                        data-width="30"
+                        data-height="30"
+                    ></span>
+                </a>
+                <a
+                    href="https://github.com/MiaTexnes"
+                    target="_blank"
+                    class="text-pink-400"
+                >
+                    <span
+                        class="iconify"
+                        data-icon="mdi:github"
+                        data-inline="false"
+                        data-width="30"
+                        data-height="30"
+                    ></span>
+                </a>
+                <a
+                    href="https://www.instagram.com/miatexnes"
+                    target="_blank"
+                    class="text-pink-400"
+                >
+                    <span
+                        class="iconify"
+                        data-icon="mdi:instagram"
+                        data-inline="false"
+                        data-width="30"
+                        data-height="30"
+                    ></span>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

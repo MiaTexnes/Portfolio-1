@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+        <script defer src="javascript/script.js"></script>
+        <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    </head>
+    <body class="bg-gray-900 text-white flex flex-col min-h-screen">
+        <nav class="bg-green-950 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="index.html"
+                    ><img class="h-20 w-20" src="images/5.png" alt="Logo"
+                /></a>
+                <div class="hidden md:flex space-x-4">
+                    <a href="portfolio.html" class="text-white">Portfolio</a>
+                    <a href="about.html" class="text-white">About</a>
+                    <a href="contact.html" class="text-white">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button
+                        id="menu-button"
+                        class="text-white focus:outline-none"
+                    >
+                        <svg
+                            class="w-6 h-6"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7"
+                            ></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden">
+                <a href="portfolio.html" class="block text-white px-2 py-1"
+                    >Home</a
+                >
+                <a href="about.html" class="block text-white px-2 py-1"
+                    >About</a
+                >
+                <a href="contact.html" class="block text-white px-2 py-1"
+                    >Contact</a
+                >
+            </div>
+        </nav>
+
+        <header class="hero flex flex-col md:flex-row items-center bg-gray-800">
+            <div class="text-container p-8 md:w-1/2 text-center md:text-left">
+                <h1 class="text-5xl font-bold mb-4 text-white">
+                    RainyDays Blog
+                </h1>
+                <p class="text-xl mb-8 text-white">
+                    Discover the beauty of rainy days
+                </p>
+                <a
+                    href="https://rainydaysmia.netlify.app/"
+                    class="btn bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"
+                    >Visit the Blog</a
+                >
+            </div>
+            <div class="image-container md:w-1/2 h-96">
+                <img
+                    src="images/rainy-days.jpeg"
+                    alt="RainyDays"
+                    class="w-full h-full object-cover object-top"
+                />
+            </div>
+        </header>
+
+        <main class="container mx-auto py-8 flex-grow">
+            <section class="bg-gray-800 p-8 rounded-lg shadow-lg">
+                <h1 class="text-4xl font-bold mb-4">
+                    Project Explanation: RainyDays Blog
+                </h1>
+                <h2 class="text-2xl font-semibold mb-4">Overview</h2>
+                <p class="mb-4">
+                    As part of my Project Exam 1, I developed RainyDays, a blog
+                    dedicated to the beauty and tranquility of rainy days. This
+                    project showcases my web development skills while sharing my
+                    passion for the serene atmosphere of rain.
+                </p>
+                <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
+                <ul class="list-disc list-inside mb-4">
+                    <li>
+                        <strong>Home Page</strong>: Features a carousel of
+                        latest posts about various rainy day experiences.
+                    </li>
+                    <li>
+                        <strong>Blog Page</strong>: Displays multiple blog posts
+                        with pagination for easy navigation.
+                    </li>
+                    <li>
+                        <strong>Individual Blog Posts</strong>: Detailed pages
+                        for each rainy day experience or topic.
+                    </li>
+                    <li>
+                        <strong>About Page</strong>: Provides information about
+                        the blog's purpose and the beauty of rainy days.
+                    </li>
+                    <li>
+                        <strong>Contact Page</strong>: Allows readers to get in
+                        touch with questions or comments.
+                    </li>
+                </ul>
+                <h2 class="text-2xl font-semibold mb-4">Technical Aspects</h2>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Built using HTML, CSS, and JavaScript</li>
+                    <li>
+                        Utilizes WordPress as a headless CMS for content
+                        management
+                    </li>
+                    <li>
+                        Implements responsive design for optimal viewing on
+                        various devices
+                    </li>
+                    <li>
+                        Incorporates dynamic content loading through WordPress
+                        REST API
+                    </li>
+                </ul>
+                <h2 class="text-2xl font-semibold mb-4">Project Goals</h2>
+                <ol class="list-decimal list-inside mb-4">
+                    <li>
+                        Demonstrate proficiency in front-end web development
+                    </li>
+                    <li>
+                        Create an engaging and informative platform for rainy
+                        day enthusiasts
+                    </li>
+                    <li>
+                        Practice integrating a headless CMS with a custom-built
+                        frontend
+                    </li>
+                    <li>
+                        Showcase skills in UI/UX design and responsive web
+                        development
+                    </li>
+                </ol>
+                <p>
+                    This project not only fulfilled the requirements of my web
+                    development exam but also allowed me to create a valuable
+                    resource for those interested in the beauty and tranquility
+                    of rainy days.
+                </p>
+            </section>
+        </main>
+
+        <footer class="text-center py-4 bg-gray-800">
+            <p>&copy; 2024 Mia P Texnes. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a
+                    href="https://www.linkedin.com/in/mia-texnes-847b28bb/?originalSubdomain=no"
+                    target="_blank"
+                    class="text-pink-400"
+                >
+                    <span
+                        class="iconify"
+                        data-icon="mdi:linkedin"
+                        data-inline="false"
+                        data-width="30"
+                        data-height="30"
+                    ></span>
+                </a>
+                <a
+                    href="https://www.facebook.com/dataengelen"
+                    target="_blank"
+                    class="text-pink-400"
+                >
+                    <span
+                        class="iconify"
+                        data-icon="mdi:facebook"
+                        data-inline="false"
+                        data-width="30"
+                        data-height="30"
+                    ></span>
+                </a>
+                <a
+                    href="https://github.com/MiaTexnes"
+                    target="_blank"
+                    class="text-pink-400"
+                >
+                    <span
+                        class="iconify"
+                        data-icon="mdi:github"
+                        data-inline="false"
+                        data-width="30"
+                        data-height="30"
+                    ></span>
+                </a>
+                <a
+                    href="https://www.instagram.com/miatexnes"
+                    target="_blank"
+                    class="text-pink-400"
+                >
+                    <span
+                        class="iconify"
+                        data-icon="mdi:instagram"
+                        data-inline="false"
+                        data-width="30"
+                        data-height="30"
+                    ></span>
+                </a>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"
+        ></script>
+        <script src="script.js"></script>
+    </body>
+</html>
