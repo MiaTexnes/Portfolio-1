@@ -36,16 +36,16 @@ I wanted the site to be clean, fun and in my style.
 
 1. Clone the repository:
 
-   ```bash
-   gh repo clone https://github.com/MiaTexnes/Portfolio-1
+    ```bash
+    gh repo clone https://github.com/MiaTexnes/Portfolio-1
 
-   ```
+    ```
 
 2. Install the dependencies:
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
 3. Running
     ```bash
