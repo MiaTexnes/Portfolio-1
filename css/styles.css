@@ -194,11 +194,11 @@ main {
     margin-bottom: 20px;
 }
 
-.bubble-list {
+.done-list {
     list-style-type: none;
     padding: 0;
 }
 
-.bubble-list li {
+.done-list li {
     margin: 10px 0;
 }
