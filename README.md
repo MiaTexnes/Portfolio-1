@@ -31,3 +31,27 @@ I wanted the site to be clean, fun and in my style.
 ## The assignment was to create a functional web site with the following requirements:
 
 1. Create a personal portfolio webpage that lists the 3 projects as cards. These cards must have a screenshot of the project and a link to the live site.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   gh repo clone https://github.com/MiaTexnes/Portfolio-1
+
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Running
+    ```bash
+    npm run start
+    ```
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/mia-texnes-847b28bb/)
