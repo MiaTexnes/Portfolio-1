@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mia Texnes | RainyDays</title>
+        <meta name="description" content="The RainyDays Project" />
         <link
             href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
             rel="stylesheet"
@@ -10,19 +12,37 @@
         <link rel="stylesheet" href="css/styles.css" />
         <script defer src="javascript/script.js"></script>
         <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/images/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/images/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/images/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
     </head>
     <body class="bg-gray-900 text-white flex flex-col min-h-screen">
         <nav class="bg-green-950 p-4">
             <div class="container mx-auto flex justify-between items-center">
-                <a href="index.html"
-                    ><img class="h-20 w-20" src="images/5.png" alt=""
-                /></a>
+                <a href="index.html">
+                    <img class="h-20 w-20" src="images/5.png" alt="Logo" />
+                </a>
                 <div class="hidden md:flex space-x-4">
                     <a href="portfolio.html" class="text-white">Portfolio</a>
                     <a href="about.html" class="text-white">About</a>
                     <a href="contact.html" class="text-white">Contact</a>
                 </div>
-                <div class="md:hidden">
+                <div class="md:hidden ml-auto">
                     <button
                         id="menu-button"
                         class="text-white focus:outline-none"
@@ -44,7 +64,7 @@
                     </button>
                 </div>
             </div>
-            <div id="mobile-menu" class="hidden md:hidden">
+            <div id="mobile-menu" class="hidden md:hidden text-right">
                 <a href="portfolio.html" class="block text-white px-2 py-1"
                     >Portfolio</a
                 >
@@ -60,7 +80,7 @@
         <header class="hero flex flex-col md:flex-row items-center bg-gray-800">
             <div class="text-container p-8 md:w-1/2 text-center md:text-left">
                 <h1 class="text-5xl font-bold mb-4 text-white">
-                    RainyDays Blog
+                    RainyDays web site
                 </h1>
                 <p class="text-xl mb-8 text-white">
                     Discover the beauty of rainy days
@@ -68,7 +88,7 @@
                 <a
                     href="https://rainydaysmia.netlify.app/"
                     class="btn bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"
-                    >Visit the Blog</a
+                    >Visit the Site</a
                 >
             </div>
             <div class="image-container md:w-1/2 h-96">
@@ -83,14 +103,13 @@
         <main class="container mx-auto py-8 flex-grow">
             <section class="bg-gray-800 p-8 rounded-lg shadow-lg">
                 <h1 class="text-4xl font-bold mb-4">
-                    Project Explanation: RainyDays Blog
+                    Project Explanation: RainyDays
                 </h1>
                 <h2 class="text-2xl font-semibold mb-4">Overview</h2>
                 <p class="mb-4">
-                    As part of my Project Exam 1, I developed RainyDays, a blog
-                    dedicated to the beauty and tranquility of rainy days. This
-                    project showcases my web development skills while sharing my
-                    passion for the serene atmosphere of rain.
+                    As part of my Cross Course project, I developed RainyDays, a
+                    website dedicated to the beauty and tranquility of rainy
+                    days clothes.
                 </p>
                 <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
                 <ul class="list-disc list-inside mb-4">

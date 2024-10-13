@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mia Texnes | Science Museum</title>
+        <meta name="description" content="The Science Museum Project" />
         <link
             href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
             rel="stylesheet"
@@ -10,19 +12,37 @@
         <link rel="stylesheet" href="css/styles.css" />
         <script defer src="javascript/script.js"></script>
         <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/images/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/images/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/images/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
     </head>
     <body class="bg-gray-900 text-white flex flex-col min-h-screen">
         <nav class="bg-green-950 p-4">
             <div class="container mx-auto flex justify-between items-center">
-                <a href="index.html"
-                    ><img class="h-20 w-20" src="images/5.png" alt=""
-                /></a>
+                <a href="index.html">
+                    <img class="h-20 w-20" src="images/5.png" alt="Logo" />
+                </a>
                 <div class="hidden md:flex space-x-4">
                     <a href="portfolio.html" class="text-white">Portfolio</a>
                     <a href="about.html" class="text-white">About</a>
                     <a href="contact.html" class="text-white">Contact</a>
                 </div>
-                <div class="md:hidden">
+                <div class="md:hidden ml-auto">
                     <button
                         id="menu-button"
                         class="text-white focus:outline-none"
@@ -44,7 +64,7 @@
                     </button>
                 </div>
             </div>
-            <div id="mobile-menu" class="hidden md:hidden">
+            <div id="mobile-menu" class="hidden md:hidden text-right">
                 <a href="portfolio.html" class="block text-white px-2 py-1"
                     >Portfolio</a
                 >
@@ -60,7 +80,7 @@
         <header class="hero flex flex-col md:flex-row items-center bg-gray-800">
             <div class="text-container p-8 md:w-1/2 text-center md:text-left">
                 <h1 class="text-5xl font-bold mb-4 text-white">
-                    Science Museum Blog
+                    Science Museum site
                 </h1>
                 <p class="text-xl mb-8 text-white">
                     Explore the wonders of science
@@ -68,7 +88,7 @@
                 <a
                     href="https://sciencemuseummia.netlify.app/"
                     class="btn bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"
-                    >Visit the Blog</a
+                    >Visit the site</a
                 >
             </div>
             <div class="image-container md:w-1/2 h-96">
@@ -83,14 +103,15 @@
         <main class="container mx-auto py-8 flex-grow">
             <section class="bg-gray-800 p-8 rounded-lg shadow-lg">
                 <h1 class="text-4xl font-bold mb-4">
-                    Project Explanation: Science Museum Blog
+                    Project Explanation: Science Museum website
                 </h1>
                 <h2 class="text-2xl font-semibold mb-4">Overview</h2>
                 <p class="mb-4">
-                    As part of my Project Exam 1, I developed Science Museum, a
-                    blog dedicated to the wonders of science. This project
-                    showcases my web development skills while sharing my passion
-                    for scientific discoveries and innovations.
+                    As part of my Semester Project 1, I developed Science
+                    Museum, a fictional site dedicated to the wonders of
+                    science. This project showcases my web development skills
+                    while sharing my passion for scientific discoveries and
+                    innovations.
                 </p>
                 <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
                 <ul class="list-disc list-inside mb-4">
@@ -99,37 +120,30 @@
                         latest posts about various scientific topics.
                     </li>
                     <li>
-                        <strong>Blog Page</strong>: Displays multiple blog posts
-                        with pagination for easy navigation.
+                        <strong>Site Page</strong>: Displays multiple posts.
                     </li>
                     <li>
-                        <strong>Individual Blog Posts</strong>: Detailed pages
-                        for each scientific topic or discovery.
+                        <strong>Individual Posts</strong>: Detailed pages for
+                        each scientific topic or discovery.
                     </li>
                     <li>
                         <strong>About Page</strong>: Provides information about
-                        the blog's purpose and the importance of science.
+                        the site purpose and the importance of science.
                     </li>
                     <li>
-                        <strong>Contact Page</strong>: Allows readers to get in
-                        touch with questions or comments.
+                        <strong>Contact Page</strong>: Allows readers and
+                        visitors to get in touch with questions or comments.
                     </li>
                 </ul>
                 <h2 class="text-2xl font-semibold mb-4">Technical Aspects</h2>
                 <ul class="list-disc list-inside mb-4">
                     <li>Built using HTML, CSS, and JavaScript</li>
-                    <li>
-                        Utilizes WordPress as a headless CMS for content
-                        management
-                    </li>
+                    <li>Nope</li>
                     <li>
                         Implements responsive design for optimal viewing on
                         various devices
                     </li>
-                    <li>
-                        Incorporates dynamic content loading through WordPress
-                        REST API
-                    </li>
+                    <li>Nope</li>
                 </ul>
                 <h2 class="text-2xl font-semibold mb-4">Project Goals</h2>
                 <ol class="list-decimal list-inside mb-4">
@@ -140,10 +154,7 @@
                         Create an engaging and informative platform for science
                         enthusiasts
                     </li>
-                    <li>
-                        Practice integrating a headless CMS with a custom-built
-                        frontend
-                    </li>
+                    <li>Nope</li>
                     <li>
                         Showcase skills in UI/UX design and responsive web
                         development
