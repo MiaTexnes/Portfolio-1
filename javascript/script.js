@@ -32,12 +32,22 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Video settings
-    const video = document.getElementById("video");
-    if (video) {
-        video.playbackRate = 1.5; // Adjust the playback speed as needed
-        video.autoplay = true; // Ensure autoplay is enabled
-        video.loop = true; // Ensure looping is enabled
-        video.muted = true; // Mute the video to allow autoplay
-        video.play(); // Start playing the video
+    const videos = document.querySelectorAll(".video");
+    if (videos) {
+        videos.forEach((video) => {
+            video.playbackRate = 1.5; // Adjust the playback speed as needed
+            video.autoplay = false; // Disable autoplay
+            video.loop = true; // Ensure looping is enabled
+            video.muted = true; // Mute the video to allow autoplay
+
+            // Add event listeners for hover
+            video.addEventListener("mouseenter", function () {
+                video.play(); // Start playing the video on hover
+            });
+
+            video.addEventListener("mouseleave", function () {
+                video.pause(); // Pause the video when not hovering
+            });
+        });
     }
 });
