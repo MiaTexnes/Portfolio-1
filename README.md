@@ -23,11 +23,11 @@ I wanted the site to be clean, fun and in my style.
 
 ## The site was built with:
 
-- [HTML]
-- [CSS]
-- [JS]
-- [Tailwind]
+-   [HTML]
+-   [CSS]
+-   [JS]
+-   [Tailwind]
 
 ## The assignment was to create a functional web site with the following requirements:
 
-1. Create a personal portfolio webpage that lists the 3 projects as cards. These cards must have a screenshot of the project and a link to the.
+1. Create a personal portfolio webpage that lists the 3 projects as cards. These cards must have a screenshot of the project and a link to the live site.
